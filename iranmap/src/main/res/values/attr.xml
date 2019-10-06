@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IranMapView">
+        <attr name="imProvinceBackgroundColor" format="color|reference"/>
+        <attr name="imProvinceActiveBackgroundColor" format="color|reference"/>
+        <attr name="imProvinceStrokeColor" format="color|reference"/>
+        <attr name="imProvinceSelectByClick" format="boolean"/>
+        <attr name="imProvinceMultiSelect" format="boolean"/>
+        <attr name="imAnimationDuration" format="integer"/>
+        <attr name="imMapAppearWithAnimation" format="boolean"/>
+        <attr name="imAdjustViewBound" format="boolean"/>
+    </declare-styleable>
+</resources>

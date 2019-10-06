@@ -1,0 +1,2 @@
+include ':app', ':iranmap'
+rootProject.name='Iran Map Svg'
