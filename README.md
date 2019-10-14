@@ -2,7 +2,7 @@
 Iran map android library
 
 ![screenshot](https://github.com/MohammadRezaei92/IranMapSvg/blob/master/screenshot/demo.gif)
-## How to download
+## How to install
 ### Gradle
 add this line to your module build.gradle dependecies block:
 ```
@@ -11,7 +11,7 @@ implementation 'com.github.MohammadRezaei92:IranMapSvg:1.0.0'
 
 ## How to use
 ### XML
-```
+```xml
 <rezaei.mohammad.iranmap.IranMapView
         android:id="@+id/iranMap"
         android:layout_width="match_parent"
@@ -29,7 +29,7 @@ implementation 'com.github.MohammadRezaei92:IranMapSvg:1.0.0'
         app:imMapAppearWithAnimation="true" />
 ```
 ### Kotlin
-```
+```kotlin
         // activate a province
         iranMap.activeProvince(Province.Esfahan,Color.CYAN,Color.YELLOW,true)
         //deactivate a province
@@ -50,5 +50,5 @@ implementation 'com.github.MohammadRezaei92:IranMapSvg:1.0.0'
 |imProvinceStrokeColor|Color.WHITE|Stroke color of province|
 |imProvinceSelectByClick|true|Make provinces clickable|
 |imProvinceMultiSelect|false|Select multi provinces|
-|imMapAppearWithAnimation|false|appear map with animation|
-|imAnimationDuration|200|map and provinces animation duration|
+|imMapAppearWithAnimation|false|Appear map with animation|
+|imAnimationDuration|200|Map and provinces animation duration|
